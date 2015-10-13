@@ -25,7 +25,6 @@
   // 一个JSContext对象，就类似于Js中的window，只需要创建一次即可。
   self.jsContext = [[JSContext alloc] init];
 
-  
   // jscontext可以直接执行JS代码。
   [self.jsContext evaluateScript:@"var num = 10"];
   [self.jsContext evaluateScript:@"var squareFunc = function(value) { return value * 2 }"];
@@ -61,9 +60,6 @@
   model.jsContext = self.jsContext;
   model.webView = self.webView;
   
-  NSURL *url = [[NSBundle mainBundle] URLForResource:@"test" withExtension:@"js"];
-  NSString *js = [[NSString alloc] initWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
-  [self.jsContext evaluateScript:js withSourceURL:url];
   self.jsContext.exceptionHandler = ^(JSContext *context, JSValue *exceptionValue) {
     context.exception = exceptionValue;
     NSLog(@"异常信息：%@", exceptionValue);
