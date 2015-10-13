@@ -42,7 +42,6 @@
   NSLog(@"JS调用了OC的方法，调起系统相册");
   
   // JS调用后OC后，又通过OC调用JS，但是这个是没有传参数的
-//  JSValue *jsFunc = [self.jsContext evaluateScript:@"jsFunc"];
   JSValue *jsFunc = self.jsContext[@"jsFunc"];
   [jsFunc callWithArguments:nil];
 }
