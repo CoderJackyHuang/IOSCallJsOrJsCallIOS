@@ -10,3 +10,4 @@ A good demo for iOS call js and js call ios native, using JavaScriptCore after i
 ##关注我
 请关注微信公众号：iOSDevShares
 
+![image](https://github.com/CoderJackyHuang/IOSCallJsOrJsCallIOS/blob/master/wx.jpg)
