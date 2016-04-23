@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69737ADD1CCBB31000AE1222 /* test1.html in Resources */ = {isa = PBXBuildFile; fileRef = 69737ADC1CCBB31000AE1222 /* test1.html */; };
+		69737ADF1CCBB33B00AE1222 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 69737ADE1CCBB33B00AE1222 /* test.html */; };
 		6975C30B1BCC9C1300C0D101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6975C30A1BCC9C1300C0D101 /* main.m */; };
 		6975C30E1BCC9C1300C0D101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6975C30D1BCC9C1300C0D101 /* AppDelegate.m */; };
 		6975C3111BCC9C1300C0D101 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6975C3101BCC9C1300C0D101 /* ViewController.m */; };
@@ -14,10 +16,11 @@
 		6975C3161BCC9C1300C0D101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6975C3151BCC9C1300C0D101 /* Assets.xcassets */; };
 		6975C3191BCC9C1300C0D101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6975C3171BCC9C1300C0D101 /* LaunchScreen.storyboard */; };
 		6975C3211BCC9D6A00C0D101 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6975C3201BCC9D6A00C0D101 /* JavaScriptCore.framework */; };
-		69DA66081BCCA361006A614C /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 69DA66071BCCA361006A614C /* test.html */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69737ADC1CCBB31000AE1222 /* test1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test1.html; sourceTree = "<group>"; };
+		69737ADE1CCBB33B00AE1222 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 		6975C3061BCC9C1300C0D101 /* JavaScriptAndObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaScriptAndObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6975C30A1BCC9C1300C0D101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6975C30C1BCC9C1300C0D101 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,7 +32,6 @@
 		6975C3181BCC9C1300C0D101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6975C31A1BCC9C1300C0D101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6975C3201BCC9D6A00C0D101 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		69DA66071BCCA361006A614C /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +66,8 @@
 		6975C3081BCC9C1300C0D101 /* JavaScriptAndObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
-				69DA66071BCCA361006A614C /* test.html */,
+				69737ADE1CCBB33B00AE1222 /* test.html */,
+				69737ADC1CCBB31000AE1222 /* test1.html */,
 				6975C30C1BCC9C1300C0D101 /* AppDelegate.h */,
 				6975C30D1BCC9C1300C0D101 /* AppDelegate.m */,
 				6975C30F1BCC9C1300C0D101 /* ViewController.h */,
@@ -143,9 +146,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69DA66081BCCA361006A614C /* test.html in Resources */,
 				6975C3191BCC9C1300C0D101 /* LaunchScreen.storyboard in Resources */,
 				6975C3161BCC9C1300C0D101 /* Assets.xcassets in Resources */,
+				69737ADD1CCBB31000AE1222 /* test1.html in Resources */,
+				69737ADF1CCBB33B00AE1222 /* test.html in Resources */,
 				6975C3141BCC9C1300C0D101 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
